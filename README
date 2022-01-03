@@ -1,0 +1,35 @@
+Mannual for Running Simulation Code:-
+
+1. Description of files
+
+  i) Each entity of the network has been treated as a node which has some co-ordinates as x-axis and y-axis. 
+     Total three files are there for this named Node.ned, Node.h and Node.cc. Node.cc file is the source file.
+     
+ ii) Base Station: There are three files for this- BaseStation.ned, BS.h and BS.cc. Class BS is extending class Node.
+     All the source codes are in BS.cc.
+ 
+ iii) Sensor: Sensor.ned file contains the source for type of node to be displayed as sensor while running simulation.
+      Sensor.cc and sensor.h files are containing the source codes for sensor functionalities.
+
+ iv) There is a network file named WSN.ned which contains the discription of entities present in the network. Also,
+     an omnetpp.ini file is there which is required for starting the omnet++ simulation.
+
+
+2. Steps for running the Simulation:-
+
+  i) Install the latest version of OMNET++.
+
+  ii) Go to the folder omnetpp where it has installed. Go to the folder omnetpp->Samples
+
+  iii) Create a new project folder here and copy all the files in this newly created folder.
+
+  iv) Start the omnetpp using terminal or double clicking the icon. See left side file structure and find your folder.
+  
+   v) Right click on the project folder and click on "Build Project". It will compile the project source code.
+      It will through some compilation error if it exists. If there is no error then fine.
+
+  vi) Again right click on the project folder and click on "Run as -> Omnet++ Sumilation". Network structure will open.
+      Now click on "run" icon at upper left. Now see the simulation result. 
+
+
+
