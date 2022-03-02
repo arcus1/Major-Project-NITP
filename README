@@ -29,7 +29,9 @@ Mannual for Running Simulation Code:-
       It will through some compilation error if it exists. If there is no error then fine.
 
   vi) Again right click on the project folder and click on "Run as -> Omnet++ Sumilation". Network structure will open.
-      Now click on "run" icon at upper left. Now see the simulation result. 
+      Now click on "run" icon at upper left. Now see the simulation result.
+
+
 
 
 
